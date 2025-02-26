@@ -1,0 +1,116 @@
+child: Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  // Indicateur 1
+                  Container(
+                    width: 12,
+                    height: 12,
+                    decoration: const BoxDecoration(
+                      shape: BoxShape.circle,
+                      color: Color(0xFF008055),
+                    ),
+                  ),
+                  const SizedBox(width: 8),
+                  // Indicateur 2
+                  Container(
+                    width: 10,
+                    height: 10,
+                    decoration: const BoxDecoration(
+                      shape: BoxShape.circle,
+                      color: Colors.grey,
+                    ),
+                  ),
+                  const SizedBox(
+                      width:
+                          20), // Espacement entre les indicateurs et le bouton
+                  // Bouton "Next" rond
+                  ElevatedButton(
+                    onPressed: () {
+                      // Action pour aller à l'écran suivant
+                    },
+                    style: ElevatedButton.styleFrom(
+                      shape: const CircleBorder(),
+                      padding: const EdgeInsets.all(16),
+                      backgroundColor: const Color(0xFF008055), // Couleur verte
+                    ),
+                    child: const Icon(
+                      Icons.arrow_forward,
+                      color: Colors.white,
+                    ),
+                  ),
+                ],
+              ),
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              child: Stack(
+                  
+                    children: [
+                      Positioned.fill(
+                        child: Image.asset(
+                          'assets/images/bg2.png', // Remplacez par le chemin de votre image
+                          fit: BoxFit.fill, // S'adapte à la taille de l'écran
+                          
+                        ),
+                      ),
+                      Column(
+                        children: [
+                          SizedBox(
+                            height: 280,
+                          ),
+                          const Text(
+                            "Allez visiter notre plateforme et voir nos autres solutions",
+                            style: TextStyle(
+                              fontSize: 16,
+                              color: Colors.white,
+                            ),
+                            textAlign: TextAlign.center,
+                          ),
+                          SizedBox(height: size.height * 0.04),
+                          ElevatedButton(
+                            onPressed: () {
+                              // Action pour "Faire un tour"
+                            },
+                            style: ElevatedButton.styleFrom(
+                              backgroundColor: Colors.white,
+                              foregroundColor:
+                                  const Color(0xFF179681), // Couleur verte
+                              shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(50),
+                              ),
+                              minimumSize: Size(size.width * 0.9, 50),
+                            ),
+                            child: Row(
+                              mainAxisSize: MainAxisSize.min,
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              children: const [
+                                Text(
+                                  "Faire un tour",
+                                  style: TextStyle(fontWeight: FontWeight.w600),
+                                ),
+                                SizedBox(width: 8),
+                                Icon(Icons.arrow_forward),
+                              ],
+                            ),
+                          ),
+                          SizedBox(
+                            height: 40,
+                          )
+                        ],
+                      ),
+                    ],
+                  ),

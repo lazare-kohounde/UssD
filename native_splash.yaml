@@ -1,0 +1,17 @@
+flutter_native_splash:
+  android: true
+  ios: true
+  web: false
+  color: "#d4e4ed" # Remplacez par la couleur de votre choix
+  image: "assets/images/logo/ussd-logo.png" # Chemin vers votre image de splash
+  branding: assets/images/logo/branding.png
+  color_dark: "#121212"
+  image_dark: assets/images/logo/ussd-logo.png
+  branding_dark: assets/images/logo/brandingd.png
+  android_12:
+    #icon_background_color: "#ffffff" # Couleur de fond pour l'icône adaptative
+    image: "assets/images/logo/ussd-logo.png" # Chemin vers votre image de splash
+    image_dark: assets/images/logo/ussd-logo.png
+    #icon_background_color_dark: "#121212"
+    branding: assets/images/logo/branding.png
+    branding_dark: assets/images/logo/brandingd.png

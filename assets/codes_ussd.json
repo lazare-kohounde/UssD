@@ -1,0 +1,33 @@
+{
+    "mtn": [
+      {
+        "name": "Solde principal",
+        "code": "*100#"
+      },
+      {
+        "name": "Transfert de crédit",
+        "code": "*150*NUM*MTN_CODE#"
+      }
+    ],
+    "moov": [
+      {
+        "name": "Solde principal",
+        "code": "*101#"
+      },
+      {
+        "name": "Transfert de crédit",
+        "code": "*150*NUM*MOOV_CODE#"
+      }
+    ],
+    "celtis": [
+      {
+        "name": "Solde principal",
+        "code": "*102#"
+      },
+      {
+        "name": "Transfert de crédit",
+        "code": "*150*NUM*CELTIS_CODE#"
+      }
+    ]
+  }
+  
