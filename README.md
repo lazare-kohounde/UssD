@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ussd
 
 A new Flutter project.
@@ -14,3 +15,6 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+=======
+# UssD
+>>>>>>> d82dff47f78a91d1c86f98907162b3d4dac9cdad
